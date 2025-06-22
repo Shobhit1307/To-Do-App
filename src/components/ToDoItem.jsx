@@ -41,21 +41,21 @@ export default function ToDoItem({ todo, onUpdate, onDelete }) {
             onClick={saveEdit}
             className="text-green-600 hover:underline"
           >
-            <img className='h-8 w-8' src="/public/images/save.svg" alt="delete icon" />
+            <img className='h-8 w-8' src="/images/save.svg" alt="delete icon" />
           </button>
         ) : (
           <button
             onClick={() => setEditing(true)}
             className="text-blue-600 hover:underline"
           >
-            <img className='h-8 w-8' src="/public/images/edit.svg" alt="delete icon" />
+            <img className='h-8 w-8' src="/images/edit.svg" alt="delete icon" />
           </button>
         )}
         <button
           onClick={() => onDelete(todo.id)}
           className="text-red-600 hover:underline"
         >
-          <img className='h-8 w-8' src="/public/images/delete.svg" alt="delete icon" />
+          <img className='h-8 w-8' src="/images/delete.svg" alt="delete icon" />
         </button>
       </div>
     </li>

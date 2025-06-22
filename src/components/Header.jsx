@@ -6,10 +6,10 @@ export default function Header() {
       </h1>
 
           <div className="social-icons">
-          <a href="#"><i class="fab fa-linkedin fa-2x p-4"></i></a>
-          <a href="#"><i class="fab fa-github fa-2x p-4"></i></a>
-          <a href="#"><i class="fab fa-instagram fa-2x p-4"></i></a>
-          <a href="#"><i class="fab fa-twitter fa-2x p-4"></i></a>
+          <a href="https://www.linkedin.com/in/shobhit-jindal-0b96b5232"><i className="fab fa-linkedin fa-2x p-4"></i></a>
+          <a href="https://github.com/Shobhit1307/To-Do-App"><i className="fab fa-github fa-2x p-4"></i></a>
+          <a href="https://www.instagram.com/shobhitjindal07/profilecard/?igsh=MXVwaGE4b2Ftcng2dw=="><i className="fab fa-instagram fa-2x p-4"></i></a>
+          <a href="https://x.com/ShobhitJ07"><i className="fab fa-twitter fa-2x p-4"></i></a>
           </div>
           
       </div>
